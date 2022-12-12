@@ -15,9 +15,10 @@ int pointer = -1;
       pointer ++;
       return true;
     }
-
   }
-
+  void operator []=(int index,dynamic value){
+    tab[index] = value;
+  }
 }
 
 
