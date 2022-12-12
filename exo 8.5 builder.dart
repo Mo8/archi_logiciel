@@ -1,4 +1,4 @@
-//En java
+//En java il y a le StringBuilder
 
 
 
