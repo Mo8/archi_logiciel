@@ -13,12 +13,11 @@ class Singleton{
 
   @override
   String toString() {
-    return 'Singleton{uuid: ${uuid}}';
+    return 'Singleton{uuid: $uuid $hashCode}';
   }
 }
 
 main(){
-  print(Singleton.getInstance());
   print(Singleton.getInstance());
   print(Singleton.getInstance());
   print(Singleton.getInstance());
